@@ -1,0 +1,113 @@
+proxies:
+  - name: "fatmi24 trojan"
+    type: trojan
+    server: 104.18.37.127
+    port: 443
+    password: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    sni: tunnel1.tunell1.eu.cc
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: tunnel1.tunell1.eu.cc
+
+  - name: "eelfada 443"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: edgetunnel.fatmiii.eu.cc
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: edgetunnel.fatmiii.eu.cc
+
+  - name: "fatmi333"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: 43d3c567-dfed-43cf-86ec-795ab239e5e2
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: qqq3.fatmi33333.eu.cc
+    ws-opts:
+      path: "/proxyip=45.154.206.84?ed=2560"
+      headers:
+        Host: qqq3.fatmi33333.eu.cc
+
+  - name: "NovaProxy 443-443"
+    type: trojan
+    server: 104.18.37.127
+    port: 443
+    password: 051dbd9b-0991-43ec-9ee1-a0542fe85d59
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    sni: amber-canyon-cd20.sunny-tide-b2c7.workers.dev
+    ws-opts:
+      path: "/e7d75671ab05/proxyip=?ed=2560"
+      headers:
+        Host: amber-canyon-cd20.sunny-tide-b2c7.workers.dev
+
+  - name: "eelfada GERMANY"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: edgetunnel.fatmiii.eu.cc
+    ws-opts:
+      path: "/pyip=ProxyIP.DE.CMLiussss.net"
+      headers:
+        Host: edgetunnel.fatmiii.eu.cc
+
+  - name: "eelfada 79.132.136.161"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: edgetunnel.fatmiii.eu.cc
+    ws-opts:
+      path: "/proxyip=79.132.136.161"
+      headers:
+        Host: edgetunnel.fatmiii.eu.cc
+
+  - name: "eelfada 149.248.199.173"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: edgetunnel.fatmiii.eu.cc
+    ws-opts:
+      path: "/proxyip=149.248.199.173"
+      headers:
+        Host: edgetunnel.fatmiii.eu.cc
+
+proxy-groups:
+  - name: "Proxy"
+    type: select
+    proxies:
+      - "eelfada GERMANY"
+      - "eelfada 443"
+      - "eelfada 79.132.136.161"
+      - "eelfada 149.248.199.173"
+      - "fatmi333"
+      - "fatmi24 trojan"
+      - "NovaProxy 443-443"
+
+rules:
+  - MATCH,Proxy
