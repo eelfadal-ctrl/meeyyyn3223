@@ -32,8 +32,6 @@ jobs:
           curl -s -o clash.yaml "http://127.0.0.1:25500/sub?target=clash&url=https://cdn.jsdelivr.net/gh/eelfadal-ctrl/meeyyyn3223@main/dfgigfjh.txt&insert=false&emoji=true&udp=true&list=false"
           echo "=== clash.yaml size ==="
           wc -c clash.yaml
-          echo "=== First 30 lines ==="
-          head -30 clash.yaml
 
       - name: Commit and push changes
         run: |
@@ -44,5 +42,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto-update clash.yaml [skip ci]"
+            git pull --rebase origin main
             git push
           fi
