@@ -20,7 +20,7 @@ jobs:
 
       - name: Generate Clash YAML via SUBAPI
         run: |
-          curl -s -o clash.yaml "https://subapi.cmliussss.net/sub?target=clash&url=https://cdn.jsdelivr.net/gh/eelfadal-ctrl/meeyyyn3223@main/dfgigfjh.txt&insert=false&emoji=true&udp=true&list=false"
+          curl -s -o clash.yaml "https://subapi.cmliussss.net/sub?target=clash&url=https://raw.githubusercontent.com/eelfadal-ctrl/meeyyyn3223/main/dfgigfjh.txt&insert=false&emoji=true&udp=true&list=false"
           echo "=== clash.yaml size ==="
           wc -c clash.yaml
           echo "=== First 20 lines ==="
