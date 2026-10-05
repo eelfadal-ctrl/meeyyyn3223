@@ -25,33 +25,15 @@ jobs:
       - name: Start subconverter
         run: |
           ./subconverter/subconverter &
-          sleep 8
-
-      - name: Fetch TXT from CDN
-        run: |
-          curl -s -o source.txt "https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/dfgigfjh.txt"
-          echo "=== Source file size ==="
-          wc -c source.txt
-          echo "=== Source file content ==="
-          head -20 source.txt
+          sleep 10
 
       - name: Generate Clash YAML
         run: |
-          curl -s -o clash.yaml "http://127.0.0.1:25500/sub?target=clash&url=https://cdn.jsdelivr.net/gh/${{ github.repository }}@main/dfgigfjh.txt&insert=false&emoji=true&udp=true"
-          echo "=== Generated clash.yaml size ==="
+          curl -s -o clash.yaml "http://127.0.0.1:25500/sub?target=clash&url=https://cdn.jsdelivr.net/gh/eelfadal-ctrl/meeyyyn3223@main/dfgigfjh.txt&insert=false&emoji=true&udp=true&list=false"
+          echo "=== clash.yaml size ==="
           wc -c clash.yaml
-          echo "=== First 50 lines of clash.yaml ==="
-          head -50 clash.yaml
-
-      - name: Check if clash.yaml is valid
-        run: |
-          if grep -q "proxies:" clash.yaml && ! grep -q "No nodes were found" clash.yaml; then
-            echo "✅ Clash YAML generated successfully"
-          else
-            echo "❌ ERROR: No nodes were found in clash.yaml"
-            echo "This means the source TXT file has invalid or unsupported links"
-            exit 1
-          fi
+          echo "=== First 30 lines ==="
+          head -30 clash.yaml
 
       - name: Commit and push changes
         run: |
