@@ -103,6 +103,19 @@ proxies:
       path: "/proxyip=136.244.94.142"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
+  - name: "fatmi24%20trojan%20Germany"
+    type: trojan
+    server: 104.18.37.127
+    port: 443
+    password: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    sni: tunnel1.tunell1.eu.cc
+    ws-opts:
+      path: "/pyip=ProxyIP.DE.CMLiussss.net"
+      headers:
+        Host: tunnel1.tunell1.eu.cc
 
 proxy-groups:
   - name: "Proxy"
@@ -116,6 +129,7 @@ proxy-groups:
       - "eelfada 79.132.136.161"
       - "eelfada 149.248.199.173"
       - "eelfada 136.244.94.142"
+      - "fatmi24%20trojan%20Germany"
 
 rules:
   - MATCH,Proxy
