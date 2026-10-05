@@ -103,6 +103,19 @@ proxies:
       path: "/proxyip=136.244.94.142"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
+  - name: "eelfada%20TLS"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: edgetunnel.fatmiii.eu.cc
+    ws-opts:
+      path: "/?ed=2560"
+      headers:
+        Host: edgetunnel.fatmiii.eu.cc
   - name: "fatmi24%20trojan%20Germany"
     type: trojan
     server: 104.18.37.127
@@ -129,6 +142,7 @@ proxy-groups:
       - "eelfada 79.132.136.161"
       - "eelfada 149.248.199.173"
       - "eelfada 136.244.94.142"
+      - "eelfada%20TLS"
       - "fatmi24%20trojan%20Germany"
 
 rules:
