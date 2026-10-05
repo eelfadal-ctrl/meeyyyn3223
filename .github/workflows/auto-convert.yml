@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Download subconverter
         run: |
@@ -42,6 +44,9 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "Auto-update clash.yaml [skip ci]"
-            git pull --rebase origin main
-            git push
+            git fetch origin main
+            git reset --soft origin/main
+            git add clash.yaml
+            git commit -m "Auto-update clash.yaml [skip ci]" || echo "No changes"
+            git push --force origin main
           fi
