@@ -131,7 +131,7 @@ proxies:
         Host: tunnel1.tunell1.eu.cc
   - name: "edgetunnel-vless-ws"
     type: vless
-    server: edgetunnel.defatmi000.workers.dev
+    server: 172.64.150.129
     port: 443
     uuid: b0f60a1e-5a34-4fd6-8104-862fbdd324ea
     network: ws
@@ -144,7 +144,7 @@ proxies:
         Host: edgetunnel.defatmi000.workers.dev
   - name: "edgetunnel-trojan-ws"
     type: trojan
-    server: edgetunnel.defatmi000.workers.dev
+    server: 172.64.150.129
     port: 443
     password: b0f60a1e-5a34-4fd6-8104-862fbdd324ea
     network: ws
