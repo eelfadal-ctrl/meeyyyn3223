@@ -129,32 +129,6 @@ proxies:
       path: "/pyip=ProxyIP.DE.CMLiussss.net"
       headers:
         Host: tunnel1.tunell1.eu.cc
-  - name: "edgetunnel-vless-ws"
-    type: vless
-    server: 172.64.150.129
-    port: 443
-    uuid: b0f60a1e-5a34-4fd6-8104-862fbdd324ea
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: edgetunnel.defatmi000.workers.dev
-    ws-opts:
-      path: "/tunnel?ed=2560"
-      headers:
-        Host: edgetunnel.defatmi000.workers.dev
-  - name: "edgetunnel-trojan-ws"
-    type: trojan
-    server: 172.64.150.129
-    port: 443
-    password: b0f60a1e-5a34-4fd6-8104-862fbdd324ea
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    sni: edgetunnel.defatmi000.workers.dev
-    ws-opts:
-      path: "/tunnel"
-      headers:
-        Host: edgetunnel.defatmi000.workers.dev
 
 proxy-groups:
   - name: "Proxy"
@@ -170,8 +144,6 @@ proxy-groups:
       - "eelfada 136.244.94.142"
       - "eelfada%20TLS"
       - "fatmi24%20trojan%20Germany"
-      - "edgetunnel-vless-ws"
-      - "edgetunnel-trojan-ws"
 
 rules:
   - MATCH,Proxy
