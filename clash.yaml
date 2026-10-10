@@ -1,17 +1,43 @@
 proxies:
-  - name: "fatmi24 trojan"
-    type: trojan
+  - name: "fatmi24"
+    type: vless
     server: 104.18.37.127
     port: 443
-    password: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
+    uuid: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
     network: ws
     tls: true
     skip-cert-verify: true
-    sni: tunnel1.tunell1.eu.cc
+    servername: tunnel-3ul.pages.dev
     ws-opts:
-      path: "/?ed=2560"
+      path: "/"
       headers:
-        Host: tunnel1.tunell1.eu.cc
+        Host: tunnel-3ul.pages.dev
+  - name: "fatmi24%20136.244.94.142%20%F0%9F%87%A9%F0%9F%87%AA"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: tunnel-3ul.pages.dev
+    ws-opts:
+      path: "//proxyip=136.244.94.142"
+      headers:
+        Host: tunnel-3ul.pages.dev
+  - name: "fatmi24%20Germany%20%F0%9F%87%A9%F0%9F%87%AA"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: tunnel-3ul.pages.dev
+    ws-opts:
+      path: "/pyip=ProxyIP.DE.CMLiussss.net"
+      headers:
+        Host: tunnel-3ul.pages.dev
   - name: "eelfada 443"
     type: vless
     server: 104.18.37.127
@@ -116,25 +142,14 @@ proxies:
       path: "/?ed=2560"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
-  - name: "fatmi24%20trojan%20Germany"
-    type: trojan
-    server: 104.18.37.127
-    port: 443
-    password: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    sni: tunnel1.tunell1.eu.cc
-    ws-opts:
-      path: "/pyip=ProxyIP.DE.CMLiussss.net"
-      headers:
-        Host: tunnel1.tunell1.eu.cc
 
 proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "fatmi24 trojan"
+      - "fatmi24"
+      - "fatmi24%20136.244.94.142%20%F0%9F%87%A9%F0%9F%87%AA"
+      - "fatmi24%20Germany%20%F0%9F%87%A9%F0%9F%87%AA"
       - "eelfada 443"
       - "fatmi333"
       - "NovaProxy 443-443"
@@ -143,7 +158,6 @@ proxy-groups:
       - "eelfada 149.248.199.173"
       - "eelfada 136.244.94.142"
       - "eelfada%20TLS"
-      - "fatmi24%20trojan%20Germany"
 
 rules:
   - MATCH,Proxy
