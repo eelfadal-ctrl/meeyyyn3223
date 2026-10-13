@@ -181,6 +181,45 @@ proxies:
       path: "/proxyip=172.233.96.242"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
+  - name: "fatmi24%20%F0%9F%87%B2%F0%9F%87%A6"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: tunnel-3ul.pages.dev
+    ws-opts:
+      path: "//proxyip=51.170.138.2"
+      headers:
+        Host: tunnel-3ul.pages.dev
+  - name: "eelfadal%20%F0%9F%87%B2%F0%9F%87%A6"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: edgetunnel.fatmiii.eu.cc
+    ws-opts:
+      path: "/proxyip=51.170.138.2"
+      headers:
+        Host: edgetunnel.fatmiii.eu.cc
+  - name: "fatmi33%20%F0%9F%87%B2%F0%9F%87%A6"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: 43d3c567-dfed-43cf-86ec-795ab239e5e2
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: qqq3.fatmi33333.eu.cc
+    ws-opts:
+      path: "/proxyip=51.170.138.2"
+      headers:
+        Host: qqq3.fatmi33333.eu.cc
 
 proxy-groups:
   - name: "Proxy"
@@ -200,6 +239,9 @@ proxy-groups:
       - "fatmi24%2031.172.71.56%20%F0%9F%87%A9%F0%9F%87%AA"
       - "fatmi24%20172.233.96.242%20SP%F0%9F%87%AA%F0%9F%87%B8"
       - "eelfada%20172.233.96.242%20%20ES%20%F0%9F%87%AA%F0%9F%87%B8"
+      - "fatmi24%20%F0%9F%87%B2%F0%9F%87%A6"
+      - "eelfadal%20%F0%9F%87%B2%F0%9F%87%A6"
+      - "fatmi33%20%F0%9F%87%B2%F0%9F%87%A6"
 
 rules:
   - MATCH,Proxy
