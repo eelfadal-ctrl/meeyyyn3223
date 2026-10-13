@@ -12,7 +12,7 @@ proxies:
       path: "/"
       headers:
         Host: tunnel-3ul.pages.dev
-  - name: "fatmi24%20136.244.94.142%20%F0%9F%87%A9%F0%9F%87%AA"
+  - name: "fatmi24 136.244.94.142 🇩🇪"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -25,7 +25,7 @@ proxies:
       path: "//proxyip=136.244.94.142"
       headers:
         Host: tunnel-3ul.pages.dev
-  - name: "fatmi24%20Germany%20%F0%9F%87%A9%F0%9F%87%AA"
+  - name: "fatmi24 Germany 🇩🇪"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -129,7 +129,7 @@ proxies:
       path: "/proxyip=136.244.94.142"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
-  - name: "eelfada%20TLS"
+  - name: "eelfada TLS"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -142,7 +142,7 @@ proxies:
       path: "/?ed=2560"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
-  - name: "fatmi24%2031.172.71.56%20%F0%9F%87%A9%F0%9F%87%AA"
+  - name: "fatmi24 31.172.71.56 🇩🇪"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -155,7 +155,7 @@ proxies:
       path: "//proxyip=31.172.71.56"
       headers:
         Host: tunnel-3ul.pages.dev
-  - name: "fatmi24%20172.233.96.242%20SP%F0%9F%87%AA%F0%9F%87%B8"
+  - name: "fatmi24 172.233.96.242 SP🇪🇸"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -168,7 +168,7 @@ proxies:
       path: "//proxyip=172.233.96.242"
       headers:
         Host: tunnel-3ul.pages.dev
-  - name: "eelfada%20172.233.96.242%20%20ES%20%F0%9F%87%AA%F0%9F%87%B8"
+  - name: "eelfada 172.233.96.242 ES 🇪🇸"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -181,7 +181,7 @@ proxies:
       path: "/proxyip=172.233.96.242"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
-  - name: "fatmi24%20%F0%9F%87%B2%F0%9F%87%A6"
+  - name: "fatmi24 🇲🇦"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -194,7 +194,7 @@ proxies:
       path: "//proxyip=51.170.138.2"
       headers:
         Host: tunnel-3ul.pages.dev
-  - name: "eelfadal%20%F0%9F%87%B2%F0%9F%87%A6"
+  - name: "eelfadal 🇲🇦"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -207,7 +207,7 @@ proxies:
       path: "/proxyip=51.170.138.2"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
-  - name: "fatmi33%20%F0%9F%87%B2%F0%9F%87%A6"
+  - name: "fatmi33 🇲🇦"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -226,8 +226,8 @@ proxy-groups:
     type: select
     proxies:
       - "fatmi24"
-      - "fatmi24%20136.244.94.142%20%F0%9F%87%A9%F0%9F%87%AA"
-      - "fatmi24%20Germany%20%F0%9F%87%A9%F0%9F%87%AA"
+      - "fatmi24 136.244.94.142 🇩🇪"
+      - "fatmi24 Germany 🇩🇪"
       - "eelfada 443"
       - "fatmi333"
       - "NovaProxy 443-443"
@@ -235,13 +235,13 @@ proxy-groups:
       - "eelfada 79.132.136.161"
       - "eelfada 149.248.199.173"
       - "eelfada 136.244.94.142"
-      - "eelfada%20TLS"
-      - "fatmi24%2031.172.71.56%20%F0%9F%87%A9%F0%9F%87%AA"
-      - "fatmi24%20172.233.96.242%20SP%F0%9F%87%AA%F0%9F%87%B8"
-      - "eelfada%20172.233.96.242%20%20ES%20%F0%9F%87%AA%F0%9F%87%B8"
-      - "fatmi24%20%F0%9F%87%B2%F0%9F%87%A6"
-      - "eelfadal%20%F0%9F%87%B2%F0%9F%87%A6"
-      - "fatmi33%20%F0%9F%87%B2%F0%9F%87%A6"
+      - "eelfada TLS"
+      - "fatmi24 31.172.71.56 🇩🇪"
+      - "fatmi24 172.233.96.242 SP🇪🇸"
+      - "eelfada 172.233.96.242 ES 🇪🇸"
+      - "fatmi24 🇲🇦"
+      - "eelfadal 🇲🇦"
+      - "fatmi33 🇲🇦"
 
 rules:
   - MATCH,Proxy
