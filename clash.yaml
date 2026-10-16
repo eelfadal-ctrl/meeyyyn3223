@@ -64,9 +64,9 @@ proxies:
       path: "/proxyip=45.154.206.84?ed=2560"
       headers:
         Host: qqq3.fatmi33333.eu.cc
-  - name: "NovaProxy 443-443"
+  - name: "NovaProxy 🇲🇦"
     type: trojan
-    server: 104.18.37.127
+    server: 172.64.150.129
     port: 443
     password: 051dbd9b-0991-43ec-9ee1-a0542fe85d59
     network: ws
@@ -74,7 +74,7 @@ proxies:
     skip-cert-verify: true
     sni: amber-canyon-cd20.sunny-tide-b2c7.workers.dev
     ws-opts:
-      path: "/e7d75671ab05/proxyip=?ed=2560"
+      path: "/e7d75671ab05/proxyip=51.170.138.2?ed=2560"
       headers:
         Host: amber-canyon-cd20.sunny-tide-b2c7.workers.dev
   - name: "eelfada 443 GERMANY"
@@ -230,7 +230,7 @@ proxy-groups:
       - "fatmi24 Germany 🇩🇪"
       - "eelfada 443"
       - "fatmi333"
-      - "NovaProxy 443-443"
+      - "NovaProxy 🇲🇦"
       - "eelfada 443 GERMANY"
       - "eelfada 79.132.136.161"
       - "eelfada 149.248.199.173"
