@@ -191,7 +191,7 @@ proxies:
     skip-cert-verify: true
     servername: tunnel-3ul.pages.dev
     ws-opts:
-      path: "//proxyip=51.170.138.2"
+      path: "//proxyip=51.170.138.109"
       headers:
         Host: tunnel-3ul.pages.dev
   - name: "eelfadal 🇲🇦"
@@ -204,7 +204,7 @@ proxies:
     skip-cert-verify: true
     servername: edgetunnel.fatmiii.eu.cc
     ws-opts:
-      path: "/proxyip=51.170.138.2"
+      path: "/proxyip=51.170.138.109"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
   - name: "fatmi33 🇲🇦"
@@ -217,7 +217,7 @@ proxies:
     skip-cert-verify: true
     servername: qqq3.fatmi33333.eu.cc
     ws-opts:
-      path: "/proxyip=51.170.138.2"
+      path: "/proxyip=51.170.138.109"
       headers:
         Host: qqq3.fatmi33333.eu.cc
 
