@@ -74,7 +74,7 @@ proxies:
     skip-cert-verify: true
     servername: hazel-fern-3d8a-2ad0a1e6.pages.dev
     ws-opts:
-      path: "/356f5b34dd52/proxyip=51.170.138.109"
+      path: "/356f5b34dd52/proxyip=51.170.138.109?ed=2560"
       headers:
         Host: hazel-fern-3d8a-2ad0a1e6.pages.dev
   - name: "eelfada 443 GERMANY"
