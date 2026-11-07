@@ -64,19 +64,19 @@ proxies:
       path: "/proxyip=45.154.206.84?ed=2560"
       headers:
         Host: qqq3.fatmi33333.eu.cc
-  - name: "NovaProxy🇲🇦"
+  - name: "NovaProxy🇲🇦🇲🇦"
     type: vless
-    server: 172.64.150.129
+    server: 104.18.37.127
     port: 443
-    uuid: c1de6249-c537-4a89-b7ce-90967bff52c0
+    uuid: d72e6c01-27f4-4d58-b530-b6d5e02c7d4c
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: hazel-fern-3d8a-2ad0a1e6.pages.dev
+    servername: swift-pine-279c-acd429c1.pages.dev
     ws-opts:
-      path: "/356f5b34dd52/proxyip=51.170.138.109?ed=2560"
+      path: "/e8fb92a699dc"
       headers:
-        Host: hazel-fern-3d8a-2ad0a1e6.pages.dev
+        Host: swift-pine-279c-acd429c1.pages.dev
   - name: "eelfada 443 GERMANY"
     type: vless
     server: 104.18.37.127
@@ -230,7 +230,7 @@ proxy-groups:
       - "fatmi24 Germany 🇩🇪"
       - "eelfada 443"
       - "fatmi333"
-      - "NovaProxy🇲🇦"
+      - "NovaProxy🇲🇦🇲🇦"
       - "eelfada 443 GERMANY"
       - "eelfada 79.132.136.161"
       - "eelfada 149.248.199.173"
