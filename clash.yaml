@@ -1,5 +1,5 @@
 proxies:
-  - name: "fatmi24"
+  - name: "fatmi24 141.253.194.63 🇦🇸"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -9,36 +9,23 @@ proxies:
     skip-cert-verify: true
     servername: tunnel-3ul.pages.dev
     ws-opts:
-      path: "/"
+      path: "/proxyip=141.253.194.63"
       headers:
         Host: tunnel-3ul.pages.dev
-  - name: "fatmi24 136.244.94.142 🇩🇪"
+  - name: "NovaProxy🇲🇦🇲🇦"
     type: vless
     server: 104.18.37.127
     port: 443
-    uuid: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
+    uuid: d72e6c01-27f4-4d58-b530-b6d5e02c7d4c
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: tunnel-3ul.pages.dev
+    servername: swift-pine-279c-acd429c1.pages.dev
     ws-opts:
-      path: "//proxyip=136.244.94.142"
+      path: "/e8fb92a699dc"
       headers:
-        Host: tunnel-3ul.pages.dev
-  - name: "fatmi24 Germany 🇩🇪"
-    type: vless
-    server: 104.18.37.127
-    port: 443
-    uuid: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: tunnel-3ul.pages.dev
-    ws-opts:
-      path: "/pyip=ProxyIP.DE.CMLiussss.net"
-      headers:
-        Host: tunnel-3ul.pages.dev
-  - name: "eelfada 443"
+        Host: swift-pine-279c-acd429c1.pages.dev
+  - name: "eelfada 141.253.194.63 ES 🇦🇸"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -48,7 +35,7 @@ proxies:
     skip-cert-verify: true
     servername: edgetunnel.fatmiii.eu.cc
     ws-opts:
-      path: "/?ed=2560"
+      path: "/proxyip=141.253.194.63"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
   - name: "fatmi333"
@@ -64,20 +51,7 @@ proxies:
       path: "/proxyip=45.154.206.84?ed=2560"
       headers:
         Host: qqq3.fatmi33333.eu.cc
-  - name: "NovaProxy🇲🇦🇲🇦"
-    type: vless
-    server: 104.18.37.127
-    port: 443
-    uuid: d72e6c01-27f4-4d58-b530-b6d5e02c7d4c
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: swift-pine-279c-acd429c1.pages.dev
-    ws-opts:
-      path: "/e8fb92a699dc"
-      headers:
-        Host: swift-pine-279c-acd429c1.pages.dev
-  - name: "eelfada 443 GERMANY"
+  - name: "eelfada 443"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -87,48 +61,22 @@ proxies:
     skip-cert-verify: true
     servername: edgetunnel.fatmiii.eu.cc
     ws-opts:
-      path: "/pyip=ProxyIP.DE.CMLiussss.net"
+      path: "/?ed=2560"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
-  - name: "eelfada 79.132.136.161"
+  - name: "fatmi24 141.253.194.63 SP 🇦🇸"
     type: vless
     server: 104.18.37.127
     port: 443
-    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
+    uuid: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
     network: ws
     tls: true
     skip-cert-verify: true
-    servername: edgetunnel.fatmiii.eu.cc
+    servername: tunnel-3ul.pages.dev
     ws-opts:
-      path: "/proxyip=79.132.136.161"
+      path: "/proxyip=141.253.194.63"
       headers:
-        Host: edgetunnel.fatmiii.eu.cc
-  - name: "eelfada 149.248.199.173"
-    type: vless
-    server: 104.18.37.127
-    port: 443
-    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: edgetunnel.fatmiii.eu.cc
-    ws-opts:
-      path: "/proxyip=149.248.199.173"
-      headers:
-        Host: edgetunnel.fatmiii.eu.cc
-  - name: "eelfada 136.244.94.142"
-    type: vless
-    server: 104.18.37.127
-    port: 443
-    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: edgetunnel.fatmiii.eu.cc
-    ws-opts:
-      path: "/proxyip=136.244.94.142"
-      headers:
-        Host: edgetunnel.fatmiii.eu.cc
+        Host: tunnel-3ul.pages.dev
   - name: "eelfada TLS"
     type: vless
     server: 104.18.37.127
@@ -142,7 +90,7 @@ proxies:
       path: "/?ed=2560"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
-  - name: "fatmi24 31.172.71.56 🇩🇪"
+  - name: "fatmi24"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -152,23 +100,10 @@ proxies:
     skip-cert-verify: true
     servername: tunnel-3ul.pages.dev
     ws-opts:
-      path: "//proxyip=31.172.71.56"
+      path: "/"
       headers:
         Host: tunnel-3ul.pages.dev
-  - name: "fatmi24 172.233.96.242 SP🇪🇸"
-    type: vless
-    server: 104.18.37.127
-    port: 443
-    uuid: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: tunnel-3ul.pages.dev
-    ws-opts:
-      path: "//proxyip=172.233.96.242"
-      headers:
-        Host: tunnel-3ul.pages.dev
-  - name: "eelfada 172.233.96.242 ES 🇪🇸"
+  - name: "eelfadal Germany 🇩🇪"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -178,10 +113,10 @@ proxies:
     skip-cert-verify: true
     servername: edgetunnel.fatmiii.eu.cc
     ws-opts:
-      path: "/proxyip=172.233.96.242"
+      path: "/proxyip=ProxyIP.MA.CMLiussss.net"
       headers:
         Host: edgetunnel.fatmiii.eu.cc
-  - name: "fatmi24 🇲🇦"
+  - name: "fatmi24 Germany 🇩🇪"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -191,23 +126,10 @@ proxies:
     skip-cert-verify: true
     servername: tunnel-3ul.pages.dev
     ws-opts:
-      path: "//proxyip=51.170.138.109"
+      path: "/proxyip=ProxyIP.MA.CMLiussss.net"
       headers:
         Host: tunnel-3ul.pages.dev
-  - name: "eelfadal 🇲🇦"
-    type: vless
-    server: 104.18.37.127
-    port: 443
-    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: edgetunnel.fatmiii.eu.cc
-    ws-opts:
-      path: "/proxyip=51.170.138.109"
-      headers:
-        Host: edgetunnel.fatmiii.eu.cc
-  - name: "fatmi33 🇲🇦"
+  - name: "fatmi33 Germany 🇩🇪"
     type: vless
     server: 104.18.37.127
     port: 443
@@ -217,7 +139,7 @@ proxies:
     skip-cert-verify: true
     servername: qqq3.fatmi33333.eu.cc
     ws-opts:
-      path: "/proxyip=51.170.138.109"
+      path: "/proxyip=ProxyIP.MA.CMLiussss.net"
       headers:
         Host: qqq3.fatmi33333.eu.cc
 
@@ -225,23 +147,17 @@ proxy-groups:
   - name: "Proxy"
     type: select
     proxies:
-      - "fatmi24"
-      - "fatmi24 136.244.94.142 🇩🇪"
-      - "fatmi24 Germany 🇩🇪"
-      - "eelfada 443"
-      - "fatmi333"
+      - "fatmi24 141.253.194.63 🇦🇸"
       - "NovaProxy🇲🇦🇲🇦"
-      - "eelfada 443 GERMANY"
-      - "eelfada 79.132.136.161"
-      - "eelfada 149.248.199.173"
-      - "eelfada 136.244.94.142"
+      - "eelfada 141.253.194.63 ES 🇦🇸"
+      - "fatmi333"
+      - "eelfada 443"
+      - "fatmi24 141.253.194.63 SP 🇦🇸"
       - "eelfada TLS"
-      - "fatmi24 31.172.71.56 🇩🇪"
-      - "fatmi24 172.233.96.242 SP🇪🇸"
-      - "eelfada 172.233.96.242 ES 🇪🇸"
-      - "fatmi24 🇲🇦"
-      - "eelfadal 🇲🇦"
-      - "fatmi33 🇲🇦"
+      - "fatmi24"
+      - "eelfadal Germany 🇩🇪"
+      - "fatmi24 Germany 🇩🇪"
+      - "fatmi33 Germany 🇩🇪"
 
 rules:
   - MATCH,Proxy
