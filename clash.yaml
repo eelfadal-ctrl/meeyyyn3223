@@ -103,32 +103,6 @@ proxies:
       path: "/"
       headers:
         Host: tunnel-3ul.pages.dev
-  - name: "eelfadal Germany 🇩🇪"
-    type: vless
-    server: 104.18.37.127
-    port: 443
-    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: edgetunnel.fatmiii.eu.cc
-    ws-opts:
-      path: "/proxyip=ProxyIP.MA.CMLiussss.net"
-      headers:
-        Host: edgetunnel.fatmiii.eu.cc
-  - name: "fatmi24 Germany 🇩🇪"
-    type: vless
-    server: 104.18.37.127
-    port: 443
-    uuid: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
-    network: ws
-    tls: true
-    skip-cert-verify: true
-    servername: tunnel-3ul.pages.dev
-    ws-opts:
-      path: "/proxyip=ProxyIP.MA.CMLiussss.net"
-      headers:
-        Host: tunnel-3ul.pages.dev
   - name: "fatmi33 Germany 🇩🇪"
     type: vless
     server: 104.18.37.127
@@ -139,9 +113,35 @@ proxies:
     skip-cert-verify: true
     servername: qqq3.fatmi33333.eu.cc
     ws-opts:
-      path: "/proxyip=ProxyIP.MA.CMLiussss.net"
+      path: "/proxyip=ProxyIP.DE.CMLiussss.net?ed=2560"
       headers:
         Host: qqq3.fatmi33333.eu.cc
+  - name: "fatmi24 Germany 🇩🇪"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: 4a3aa818-16a9-4bdc-8409-3707c7ca44ed
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: tunnel-3ul.pages.dev
+    ws-opts:
+      path: "/proxyip=ProxyIP.DE.CMLiussss.net?ed=2560"
+      headers:
+        Host: tunnel-3ul.pages.dev
+  - name: "eelfadal Germany 🇩🇪"
+    type: vless
+    server: 104.18.37.127
+    port: 443
+    uuid: d3ca2521-e4e2-4ca9-8776-8981dce94145
+    network: ws
+    tls: true
+    skip-cert-verify: true
+    servername: edgetunnel.fatmiii.eu.cc
+    ws-opts:
+      path: "/proxyip=ProxyIP.DE.CMLiussss.net?ed=2560"
+      headers:
+        Host: edgetunnel.fatmiii.eu.cc
 
 proxy-groups:
   - name: "Proxy"
@@ -155,9 +155,9 @@ proxy-groups:
       - "fatmi24 141.253.194.63 SP 🇦🇸"
       - "eelfada TLS"
       - "fatmi24"
-      - "eelfadal Germany 🇩🇪"
-      - "fatmi24 Germany 🇩🇪"
       - "fatmi33 Germany 🇩🇪"
+      - "fatmi24 Germany 🇩🇪"
+      - "eelfadal Germany 🇩🇪"
 
 rules:
   - MATCH,Proxy
